@@ -1,0 +1,432 @@
+const SONGS = {
+  "01": {
+    "title": "DIRÁ QUE SÍ",
+    "status": "Registro pendiente",
+    "excerpt": "Si es pa´ ti va a llegar · Deja de mirar tanto hacia atrás",
+    "sections": [
+      [
+        "INTRO",
+        [
+          "Groove de percusión afrobeat, claps y bajo hipnótico"
+        ]
+      ],
+      [
+        "VERSE 1",
+        [
+          "Si es pa´ ti va a llegar",
+          "Deja de mirar tanto hacia atrás",
+          "El viento va a tu favor,",
+          "Hay luz después de aquel apagón.",
+          "La llave viene en tu mente,",
+          "No dudes, déjala fluir",
+          "Lo bueno si va a venir",
+          "Si va a venir"
+        ]
+      ],
+      [
+        "PRE CHORUS",
+        [
+          "Pon la intención en tu pecho,",
+          "Mira hacia arriba, está hecho."
+        ]
+      ],
+      [
+        "CHORUS",
+        [
+          "Suelta la duda, ponte en pié,",
+          "Que si lo pides con fe, dirá que sí.",
+          "Todo se mueve por ti,",
+          "Que si lo dices con fe, dirá que sí.",
+          "Las puertas, seguro van a abrir,",
+          "Que si lo sientes con fe, dirá que sí.",
+          "¡Siénte, víve, ya estás aquí!",
+          "Que si lo vibras con fe, dirá que sí."
+        ]
+      ],
+      [
+        "BRIDGE",
+        [
+          "Solo de percusión limpia, mezcla de afrobeat y tambor caribeño"
+        ]
+      ],
+      [
+        "CHORUS",
+        [
+          "Suelta la duda, ponte en pié,",
+          "Que si lo pides con fe, dirá que sí.",
+          "Todo se mueve por ti,",
+          "Que si lo dices con fe, dirá que sí.",
+          "La puerta, seguro se va a abrir,",
+          "Que si lo sientes con fe, dirá que sí.",
+          "¡Siénte, víve, ya estás aquí!",
+          "Que si lo vibras con fe, dirá que sí."
+        ]
+      ],
+      [
+        "OUTRO / SPOKEN",
+        [
+          "— Dirá que sí... (¡Aja!)",
+          "— Si le hablas con el corazón...",
+          "— Dirá que sí...",
+          "— ¡Tenlo por seguro!",
+          "— ¡Dirá que YES!"
+        ]
+      ]
+    ]
+  },
+  "02": {
+    "title": "SI TUS LABIOS BAILAN",
+    "status": "Registro en Drive",
+    "excerpt": "Hay silencios que dan miedo · Como cuando tú te callas",
+    "sections": [
+      [
+        "VERSE 1",
+        [
+          "Hay silencios que dan miedo",
+          "Como cuando tú te callas",
+          "Tal vez te vas despidiendo",
+          "Y en puntillas va tu alma",
+          "No es una, ni dos, son tantas",
+          "Amenazan tus distancias",
+          "Duelen y no lo niego",
+          "Me traspasan como espadas"
+        ]
+      ],
+      [
+        "PRE CHORUS",
+        [
+          "Tu voz, mi playlist perfecta",
+          "Tu boca es rumba que sana",
+          "Suelto campanas al viento",
+          "Respiro si tus labios bailan"
+        ]
+      ],
+      [
+        "CHORUS",
+        [
+          "Si bailan me hacen más fuerte",
+          "Respiro si tus labios bailan",
+          "No me arrastra la corriente",
+          "No vivo si tus labios callan",
+          "Mejor si bailan"
+        ]
+      ],
+      [
+        "VERSE 3",
+        [
+          "Te pido rías entera",
+          "Que no paren tus guitarras",
+          "Aprendo a diario en la espera",
+          "No tires todo a las llamas"
+        ]
+      ],
+      [
+        "BRIDGE",
+        [
+          "No quiero pedazos, recortes",
+          "No quiero la luz de una vela",
+          "Solo quiero ser tu norte",
+          "Ser tu única bandera"
+        ]
+      ]
+    ]
+  },
+  "03": {
+    "title": "SEGUNDA CITA",
+    "status": "Registro en Drive",
+    "excerpt": "Nuestra segunda cita será la primera · Nuestra segunda cita será la bandera",
+    "sections": [
+      [
+        "ESTROFA",
+        [
+          "Al tiempo  decir, date un poco de prisa",
+          "Que venga pronto, que llegue el momento",
+          "Acercarlo todo a esa segunda cita",
+          "Cambiar entero aquel primer intento",
+          "Cierro filas a detalles falsos",
+          "Precavido trazo un magnifico plan",
+          "Negocié sincero un mayo este marzo",
+          "Suerte y destino conspirando están"
+        ]
+      ],
+      [
+        "ESTRIBILLO",
+        [
+          "Nuestra segunda cita será la primera",
+          "Nuestra segunda cita será la bandera",
+          "Hallazgo, conquista, mirada certera",
+          "Eterna, bonita, segura, ligera",
+          "Nuestra segunda cita será un buen comienzo",
+          "Nuestra segunda cita será un blanco lienzo",
+          "Llenarlo de historias, sonrisas, momentos,",
+          "proyectos, recuerdos perfectos"
+        ]
+      ],
+      [
+        "PUENTE",
+        [
+          "El tiempo y su lenta justicia a mis ganas de verte",
+          "Y yo, declaro guerra al mientras tanto",
+          "Vivirte más, es mi cita de suerte",
+          "Mantengo en estrés a todos mis santos"
+        ]
+      ]
+    ]
+  },
+  "04": {
+    "title": "TU ENCUENTRO",
+    "status": "Registro en Drive",
+    "excerpt": "Cuando voy a tu encuentro · Cruzo los dedos y enciendo velas",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "Cuando voy a tu encuentro",
+          "Cruzo los dedos y enciendo velas",
+          "Descarto los martes trece",
+          "No paso debajo de escaleras"
+        ]
+      ],
+      [
+        "ESTROFA 2",
+        [
+          "Cuando voy a tu encuentro",
+          "No digo a nadie aunque lo sepan",
+          "Llevo el corazón contento",
+          "Y limpio de heridas viejas"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Y mira que no soy supersticioso",
+          "Planificado o ambicioso",
+          "Solo busco el amor",
+          "Escucha y tal vez me quede corto",
+          "Un encuentro de nosotros",
+          "En mi vida es lo mejor",
+          "Escucha puede que me quede corto",
+          "Cada encuentro de nosotros",
+          "Es mejor que el anterior"
+        ]
+      ],
+      [
+        "ESTROFA 3",
+        [
+          "Cuando voy a tu encuentro",
+          "Olvido todo mi estrés",
+          "Despierto y al tocar el suelo",
+          "Son derechos mis pies"
+        ]
+      ],
+      [
+        "ESTROFA 4",
+        [
+          "Cuando voy a tu encuentro",
+          "Quiero mirar tu piel que brilla",
+          "Como luna en las maderas",
+          "De un quieto barco en la orilla"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Y mira que no soy supersticioso",
+          "Planificado o ambicioso",
+          "Solo busco el amor",
+          "Escucha y tal vez me quede corto",
+          "Un encuentro de nosotros",
+          "En mi vida es lo mejor",
+          "Escucha puede que me quede corto",
+          "Cada encuentro de nosotros",
+          "Es mejor que lo mejor"
+        ]
+      ],
+      [
+        "PUENTE",
+        [
+          "Pagaría primera fila por ver una cita nuestra",
+          "Y claro la protegería con aloe y con canela"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Y mira que no soy supersticioso",
+          "Planificado o ambicioso",
+          "Solo busco el amor",
+          "Escucha y tal vez me quede corto",
+          "Un encuentro de nosotros",
+          "En mi vida es lo mejor",
+          "Escucha puede que me quede corto",
+          "Cada encuentro de nosotros",
+          "Es mejor que el anterior"
+        ]
+      ]
+    ]
+  },
+  "05": {
+    "title": "CAMA X CÁRCEL",
+    "status": "Registro en Drive",
+    "excerpt": "Sigue calmada · Y ve tranquila",
+    "sections": [
+      [
+        "VERSE 1",
+        [
+          "Sigue calmada",
+          "Y ve tranquila",
+          "Aposté el alma",
+          "Cuánto perdí",
+          "Mala jugada",
+          "Caí en tu mentira",
+          "Siendo sincero",
+          "Me dejé mentir"
+        ]
+      ],
+      [
+        "PRE CHORUS",
+        [
+          "Duele tu adiós",
+          "En pedazos por ti",
+          "Sin rencor lo digo",
+          "Extráñame así:"
+        ]
+      ],
+      [
+        "CHORUS",
+        [
+          "Que tus sábanas quietas",
+          "De no arder se cansen",
+          "Que aun en compañía",
+          "Tengas cama por cárcel",
+          "Y las frías cadenas",
+          "Del despecho te abracen",
+          "Y en todos tus insomnios",
+          "Yo esté cada instante",
+          "Que tus noches se enteren",
+          "Lo que perdió tu vida",
+          "Cada beso recuerde",
+          "Tus promesas vacías",
+          "Y mientras yo tranquilo",
+          "Encontré mi salida",
+          "Tú en una cama por cárcel",
+          "Prisionera y vacía"
+        ]
+      ],
+      [
+        "BRIDGE",
+        [
+          "Paso de ti",
+          "Mi paz toma forma",
+          "Hoy juego por mi",
+          "Ahora es mi norma",
+          "Ojalá la vida",
+          "Te trate bien",
+          "Sal de la celda",
+          "de su piel"
+        ]
+      ],
+      [
+        "CHORUS",
+        [
+          "Que tus sábanas quietas",
+          "De no arder se cansen",
+          "Que aun en compañía",
+          "Tengas cama por cárcel",
+          "Y las frías cadenas",
+          "Del despecho te abracen",
+          "Y en todos tus insomnios",
+          "Yo esté cada instante"
+        ]
+      ]
+    ]
+  }
+};
+
+const nav = document.querySelector('#site-nav');
+const menuToggle = document.querySelector('.menu-toggle');
+menuToggle?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  menuToggle.setAttribute('aria-expanded', String(open));
+});
+nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  nav.classList.remove('open');
+  menuToggle?.setAttribute('aria-expanded','false');
+}));
+
+const modal = document.querySelector('#lyricsModal');
+const modalTitle = document.querySelector('#modalTitle');
+const modalNo = document.querySelector('#modalNo');
+const modalStatus = document.querySelector('#modalStatus');
+const modalLyrics = document.querySelector('#modalLyrics');
+
+function openLyrics(id) {
+  const song = SONGS[id];
+  if (!song) return;
+  modalNo.textContent = id;
+  modalTitle.textContent = song.title;
+  modalStatus.textContent = song.status;
+  modalLyrics.innerHTML = song.sections.map(([section, lines]) => `
+    <section class="lyrics-section">
+      <h4>${section}</h4>
+      <p>${lines.map(line => escapeHtml(line)).join('<br>')}</p>
+    </section>
+  `).join('');
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.classList.add('modal-open');
+  modal.querySelector('.modal-close').focus();
+}
+
+function closeLyrics() {
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.classList.remove('modal-open');
+}
+
+function escapeHtml(value) {
+  return value.replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));
+}
+
+document.querySelectorAll('[data-open-lyrics]').forEach(btn => {
+  btn.addEventListener('click', () => openLyrics(btn.dataset.openLyrics));
+});
+document.querySelectorAll('[data-close-modal]').forEach(el => el.addEventListener('click', closeLyrics));
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && modal.classList.contains('open')) closeLyrics();
+});
+
+document.querySelector('#printBtn')?.addEventListener('click', () => window.print());
+
+document.querySelector('#shareBtn')?.addEventListener('click', async () => {
+  const data = {title:'CASA CARIBE — EP', text:'CASA CARIBE · presentación del EP', url:location.href};
+  if (navigator.share) {
+    try { await navigator.share(data); } catch (_) {}
+  } else {
+    try {
+      await navigator.clipboard.writeText(location.href);
+      const btn = document.querySelector('#shareBtn');
+      const old = btn.textContent;
+      btn.textContent = 'Enlace copiado';
+      setTimeout(() => btn.textContent = old, 1800);
+    } catch (_) {
+      alert('Copia la URL de esta página para compartirla.');
+    }
+  }
+});
+
+const AUDIO_LINKS = {
+  "01": "https://drive.google.com/file/d/1WtHURDbDTquVIhBunM0y0hSypvixmvvf/view?usp=sharing",
+  "02": "https://drive.google.com/file/d/1qnYMbyGIqJobVq-emli7NqkNGOVgakEg/view?usp=sharing",
+  "03": "https://drive.google.com/file/d/1bPbuwJRVJafuLGTk-4M_P01VPLzJPDRr/view?usp=sharing",
+  "04": "https://drive.google.com/file/d/1-SZrImIh9zix8SNqXrmMWjwLhRdTfoJJ/view?usp=sharing",
+  "05": "https://drive.google.com/file/d/1w43qwrHbClvCiytUoJcX4d9n-N6ZFgWo/view?usp=sharing"
+};
+
+const REGISTRATION_LINKS = {
+  "01": null,
+  "02": "https://drive.google.com/file/d/1_mRL5cE_YSb3AwAW0CRA1LxJGA7qB55N/view?usp=sharing",
+  "03": "https://drive.google.com/file/d/10qiMwOKFu_YP-3xVM8t9C13dYIaj5Uhf/view?usp=sharing",
+  "04": "https://drive.google.com/file/d/1g2aJo4D-QGHby6mlbgQ_efxGWmpsViMu/view?usp=sharing",
+  "05": "https://drive.google.com/file/d/1BMGSS7OSiBc1ARhq0ayFYhdLcDsvz0jA/view?usp=sharing"
+};

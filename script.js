@@ -1,17 +1,16 @@
 const SONGS = {
   "01": {
     "title": "DIRÁ QUE SÍ",
-    "status": "",
     "excerpt": "Si es pa´ ti va a llegar · Deja de mirar tanto hacia atrás",
     "sections": [
       [
-        "INTRO",
+        "INTRODUCCIÓN",
         [
           "Groove de percusión afrobeat, claps y bajo hipnótico"
         ]
       ],
       [
-        "VERSE 1",
+        "ESTROFA 1",
         [
           "Si es pa´ ti va a llegar",
           "Deja de mirar tanto hacia atrás",
@@ -24,14 +23,14 @@ const SONGS = {
         ]
       ],
       [
-        "PRE CHORUS",
+        "PRE ESTRIBILLO",
         [
           "Pon la intención en tu pecho,",
           "Mira hacia arriba, está hecho."
         ]
       ],
       [
-        "CHORUS",
+        "ESTRIBILLO",
         [
           "Suelta la duda, ponte en pié,",
           "Que si lo pides con fe, dirá que sí.",
@@ -44,13 +43,13 @@ const SONGS = {
         ]
       ],
       [
-        "BRIDGE",
+        "PUENTE",
         [
           "Solo de percusión limpia, mezcla de afrobeat y tambor caribeño"
         ]
       ],
       [
-        "CHORUS",
+        "ESTRIBILLO",
         [
           "Suelta la duda, ponte en pié,",
           "Que si lo pides con fe, dirá que sí.",
@@ -63,7 +62,7 @@ const SONGS = {
         ]
       ],
       [
-        "OUTRO / SPOKEN",
+        "CIERRE / HABLADO",
         [
           "— Dirá que sí... (¡Aja!)",
           "— Si le hablas con el corazón...",
@@ -76,11 +75,10 @@ const SONGS = {
   },
   "02": {
     "title": "SI TUS LABIOS BAILAN",
-    "status": "Registro en Drive",
     "excerpt": "Hay silencios que dan miedo · Como cuando tú te callas",
     "sections": [
       [
-        "VERSE 1",
+        "ESTROFA 1",
         [
           "Hay silencios que dan miedo",
           "Como cuando tú te callas",
@@ -93,7 +91,7 @@ const SONGS = {
         ]
       ],
       [
-        "PRE CHORUS",
+        "PRE ESTRIBILLO",
         [
           "Tu voz, mi playlist perfecta",
           "Tu boca es rumba que sana",
@@ -102,7 +100,7 @@ const SONGS = {
         ]
       ],
       [
-        "CHORUS",
+        "ESTRIBILLO",
         [
           "Si bailan me hacen más fuerte",
           "Respiro si tus labios bailan",
@@ -112,7 +110,7 @@ const SONGS = {
         ]
       ],
       [
-        "VERSE 3",
+        "ESTROFA 3",
         [
           "Te pido rías entera",
           "Que no paren tus guitarras",
@@ -121,7 +119,7 @@ const SONGS = {
         ]
       ],
       [
-        "BRIDGE",
+        "PUENTE",
         [
           "No quiero pedazos, recortes",
           "No quiero la luz de una vela",
@@ -133,7 +131,6 @@ const SONGS = {
   },
   "03": {
     "title": "SEGUNDA CITA",
-    "status": "Registro en Drive",
     "excerpt": "Nuestra segunda cita será la primera · Nuestra segunda cita será la bandera",
     "sections": [
       [
@@ -175,7 +172,6 @@ const SONGS = {
   },
   "04": {
     "title": "TU ENCUENTRO",
-    "status": "Registro en Drive",
     "excerpt": "Cuando voy a tu encuentro · Cruzo los dedos y enciendo velas",
     "sections": [
       [
@@ -267,11 +263,10 @@ const SONGS = {
   },
   "05": {
     "title": "CAMA X CÁRCEL",
-    "status": "Registro en Drive",
     "excerpt": "Sigue calmada · Y ve tranquila",
     "sections": [
       [
-        "VERSE 1",
+        "ESTROFA 1",
         [
           "Sigue calmada",
           "Y ve tranquila",
@@ -284,7 +279,7 @@ const SONGS = {
         ]
       ],
       [
-        "PRE CHORUS",
+        "PRE ESTRIBILLO",
         [
           "Duele tu adiós",
           "En pedazos por ti",
@@ -293,7 +288,7 @@ const SONGS = {
         ]
       ],
       [
-        "CHORUS",
+        "ESTRIBILLO",
         [
           "Que tus sábanas quietas",
           "De no arder se cansen",
@@ -314,7 +309,7 @@ const SONGS = {
         ]
       ],
       [
-        "BRIDGE",
+        "PUENTE",
         [
           "Paso de ti",
           "Mi paz toma forma",
@@ -327,7 +322,7 @@ const SONGS = {
         ]
       ],
       [
-        "CHORUS",
+        "ESTRIBILLO",
         [
           "Que tus sábanas quietas",
           "De no arder se cansen",
@@ -357,7 +352,6 @@ nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 const modal = document.querySelector('#lyricsModal');
 const modalTitle = document.querySelector('#modalTitle');
 const modalNo = document.querySelector('#modalNo');
-const modalStatus = document.querySelector('#modalStatus');
 const modalLyrics = document.querySelector('#modalLyrics');
 
 function openLyrics(id) {
@@ -365,7 +359,6 @@ function openLyrics(id) {
   if (!song) return;
   modalNo.textContent = id;
   modalTitle.textContent = song.title;
-  modalStatus.textContent = song.status;
   modalLyrics.innerHTML = song.sections.map(([section, lines]) => `
     <section class="lyrics-section">
       <h4>${section}</h4>

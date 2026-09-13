@@ -7,7 +7,7 @@ Mini sitio estático para presentar el EP **CASA CARIBE**.
 - `index.html` — página principal.
 - `styles.css` — identidad visual y responsive.
 - `script.js` — navegación, modal de letras, compartir e impresión.
-- `assets/casa-caribe-cover.png` — arte visual suministrado.
+- `assets/diseno-visual.png` — arte visual suministrado.
 - `.nojekyll` — evita el procesamiento Jekyll si se publica desde una rama.
 - `README.md` — instrucciones.
 
@@ -30,7 +30,7 @@ Si posteriormente quieres reproductores embebidos por canción, sustituye los en
 
 ## Derechos
 
-La presentación marca **DIRÁ QUE SÍ** como registro pendiente, según la información proporcionada para este proyecto. Las otras cuatro canciones tienen su enlace individual de registro integrado en cada ficha. **DIRÁ QUE SÍ** sigue pendiente de registro.
+Los accesos de audio y registro están integrados canción por canción. DIRÁ QUE SÍ no incluye enlace de registro.
 
 ## Seguridad
 

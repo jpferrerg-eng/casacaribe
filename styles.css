@@ -29,7 +29,7 @@ button{font:inherit}
 .site-nav a:hover{opacity:1;color:var(--sand)}
 .menu-toggle{display:none;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;padding:8px 12px;border-radius:99px}
 .hero{height:min(920px,100vh);min-height:700px;position:relative;display:flex;align-items:flex-end;overflow:hidden;background:var(--deep);color:#fff}
-.hero-image{position:absolute;inset:0;background:url('assets/diseno-visual.png') center/cover no-repeat;transform:scale(1.02)}
+.hero-image{position:absolute;inset:0;background:url('diseno-visual.png') center/cover no-repeat;transform:scale(1.02)}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,19,22,.76) 0%,rgba(3,19,22,.18) 55%,rgba(3,19,22,.08) 100%),linear-gradient(0deg,rgba(3,19,22,.68),transparent 50%)}
 .hero-content{position:relative;z-index:2;padding:10vh 7vw 9vh;max-width:780px}
 .eyebrow,.section-kicker{font-size:11px;letter-spacing:.23em;text-transform:uppercase;font-weight:700}
@@ -74,7 +74,7 @@ h2 em{font-family:var(--serif);font-weight:400}
 .track-lyrics{border:0;background:none;color:var(--ink);font-size:11px;text-transform:uppercase;letter-spacing:.12em;text-align:right;cursor:pointer}
 .track-lyrics span{font-size:16px;margin-left:5px}
 .lyric-feature{min-height:650px;display:grid;grid-template-columns:1.1fr .9fr;padding:0;background:var(--deep);color:#fff}
-.feature-art{min-height:600px;background:url('assets/diseno-visual.png') center/cover no-repeat;filter:saturate(.85)}
+.feature-art{min-height:600px;background:url('diseno-visual.png') center/cover no-repeat;filter:saturate(.85)}
 .feature-copy{padding:12vw 8vw;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
 .feature-copy .section-kicker{color:var(--sand)}
 .feature-copy h2{margin-bottom:28px}
@@ -96,7 +96,7 @@ h2 em{font-family:var(--serif);font-weight:400}
 .status-note strong{font-size:11px;text-transform:uppercase;letter-spacing:.1em}
 .status-note span{color:var(--muted)}
 .closing{min-height:600px;position:relative;display:grid;place-items:center;overflow:hidden;background:var(--deep);color:#fff}
-.closing-map{position:absolute;inset:-20%;background:url('assets/diseno-visual.png') center/cover no-repeat;opacity:.23;filter:grayscale(1);transform:rotate(-3deg) scale(1.1)}
+.closing-map{position:absolute;inset:-20%;background:url('diseno-visual.png') center/cover no-repeat;opacity:.23;filter:grayscale(1);transform:rotate(-3deg) scale(1.1)}
 .closing:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,transparent 0,rgba(3,19,22,.82) 68%)}
 .closing-content{position:relative;z-index:2;text-align:center;display:flex;align-items:center;flex-direction:column}
 .closing-content h2{font-size:clamp(54px,8vw,110px);margin-bottom:20px}

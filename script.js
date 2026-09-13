@@ -1,7 +1,7 @@
 const SONGS = {
   "01": {
     "title": "DIRÁ QUE SÍ",
-    "status": "Registro pendiente",
+    "status": "",
     "excerpt": "Si es pa´ ti va a llegar · Deja de mirar tanto hacia atrás",
     "sections": [
       [

@@ -7,7 +7,7 @@ Mini sitio estático para presentar el EP **CASA CARIBE**.
 - `index.html` — página principal.
 - `styles.css` — identidad visual y responsive.
 - `script.js` — navegación, modal de letras, compartir e impresión.
-- `assets/diseno-visual.png` — arte visual suministrado.
+- `diseno-visual.png` — arte visual suministrado; el archivo está en el directorio raíz (`main`).
 - `.nojekyll` — evita el procesamiento Jekyll si se publica desde una rama.
 - `README.md` — instrucciones.
 
@@ -35,3 +35,7 @@ Los accesos de audio y registro están integrados canción por canción. DIRÁ Q
 ## Seguridad
 
 No coloques información privada, credenciales ni documentos sensibles dentro del repositorio público. GitHub Pages es un sitio público cuando se publica.
+
+
+### Diseño visual
+El diseño visual está basado en un mapa del Caribe de 1548, conservado en el Archivo Histórico de Indias de Sevilla, España.

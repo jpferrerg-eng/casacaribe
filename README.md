@@ -7,7 +7,7 @@ Mini sitio estático para presentar el EP **CASA CARIBE**.
 - `index.html` — página principal.
 - `styles.css` — identidad visual y responsive.
 - `script.js` — navegación, modal de letras, compartir e impresión.
-- `diseno-visual.png` — arte visual suministrado.
+- `assets/diseno-visual.png` — arte visual suministrado.
 - `.nojekyll` — evita el procesamiento Jekyll si se publica desde una rama.
 - `README.md` — instrucciones.
 

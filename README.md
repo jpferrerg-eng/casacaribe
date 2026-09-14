@@ -38,4 +38,4 @@ No coloques información privada, credenciales ni documentos sensibles dentro de
 
 
 ### Diseño visual
-El diseño visual está basado en un mapa del Caribe de 1548, conservado en el Archivo Histórico de Indias de Sevilla, España.
+El diseño visual está basado en un mapa de 1596 que reposa en el Archivo de Indias, Sevilla, España.

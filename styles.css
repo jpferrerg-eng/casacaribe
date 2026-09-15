@@ -385,8 +385,8 @@ h2 em{font-family:var(--serif);font-weight:400}
   border-top:1px solid var(--line);
   max-width:760px;
 }
-.lyrics-intro .section-kicker{
-  margin-bottom:18px;
+.lyrics-intro h2{
+  margin-bottom:24px;
 }
 .lyrics-intro p{
   margin:0;

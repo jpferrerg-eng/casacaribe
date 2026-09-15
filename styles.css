@@ -360,3 +360,38 @@ h2 em{font-family:var(--serif);font-weight:400}
   .footer-contact{gap:14px;flex-wrap:wrap}
   .footer-instagram,.footer-phone,.footer-name{font-size:9px}
 }
+
+/* Added: LADO A / LADO B and lyrics introduction */
+.track-side-label{
+  grid-column:1 / -1;
+  padding:18px 0 10px;
+  margin-top:8px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.23em;
+  text-transform:uppercase;
+  color:var(--teal);
+  border-bottom:1px solid var(--line);
+}
+.track-side-label.track-side-b{
+  margin-top:30px;
+  color:var(--orange);
+  border-top:1px solid var(--line);
+  padding-top:28px;
+}
+.lyrics-intro{
+  margin-top:58px;
+  padding:34px 0 0;
+  border-top:1px solid var(--line);
+  max-width:760px;
+}
+.lyrics-intro .section-kicker{
+  margin-bottom:18px;
+}
+.lyrics-intro p{
+  margin:0;
+  max-width:700px;
+  font-size:16px;
+  line-height:1.7;
+  color:var(--muted);
+}

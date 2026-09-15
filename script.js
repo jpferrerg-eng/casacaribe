@@ -335,6 +335,133 @@ const SONGS = {
         ]
       ]
     ]
+  },
+  "06": {
+    "title": "FUMÁNDOTE MI VIDA",
+    "excerpt": "Un millón de culpas · Que no caben en mi vida",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "Un millón de culpas",
+          "Que no caben en mi vida",
+          "Me disparas a la cara",
+          "¿Y ese es tu amor?",
+          "Solo sabes herir.",
+          "Siempre los terceros sobran",
+          "Claro se supone",
+          "Pero tu no entiendes nada",
+          "No es amor",
+          "No lo vendas así"
+        ]
+      ],
+      [
+        "ESTRIBILLO",
+        [
+          "En cambio yo",
+          "Vengo enamorado como tonto",
+          "Regalándote mi vida",
+          "En cambio tu",
+          "Apenas das muy poco",
+          "De lo poco",
+          "Vas fumándote tu vida",
+          "Y la mía",
+          "Aquí estoy",
+          "Atrapado y sin salida"
+        ]
+      ],
+      [
+        "ESTROFA 2",
+        [
+          "Aún sin hacer nada",
+          "Vas posteando mis defectos",
+          "Como a ti te da la gana",
+          "Causas dolor",
+          "No me trates así"
+        ]
+      ],
+      [
+        "PUENTE",
+        [
+          "Dicho lo dicho y visto lo visto",
+          "Ya no te lloro ya no te insisto",
+          "No vivo en tu vida",
+          "A partir de hoy",
+          "Respiro en la mía"
+        ]
+      ]
+    ]
+  },
+  "07": {
+    "title": "TU BOCA Y MI BOCA",
+    "excerpt": "Como ladrón voy detrás de tu boca · Me esquivas, no quieres y te equivocas",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "Como ladrón voy detrás de tu boca",
+          "Me esquivas, no quieres y te equivocas",
+          "Te apartas y huyes, pero me rozas",
+          "Te alejas, renuncias, pero me tocas"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Mi boca y tu boca, qué cosa tan loca",
+          "Se alejan, provocan, se acercan, trastocan",
+          "Y es que tu boca mi orgullo derroca",
+          "Deseos invoca, mi razón desenfoca",
+          "Tu boca y mi boca son locas",
+          "Tu boca y mi boca son locas"
+        ]
+      ],
+      [
+        "ESTROFA 2",
+        [
+          "¿Acaso no ves que mi angustia no es poca?",
+          "Labios sedientos que evocan",
+          "En ellos están de mi escala las notas",
+          "Que es una carrera que angustia y sofoca"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Mi boca y tu boca, qué cosa tan loca",
+          "Se alejan, provocan, se acercan, trastocan",
+          "Y es que tu boca mi orgullo derroca",
+          "Deseos invoca, mi razón desenfoca",
+          "Tu boca y mi boca son locas",
+          "Tu boca y mi boca son locas"
+        ]
+      ],
+      [
+        "PUENTE",
+        [
+          "Y si dos bocas se desbocan",
+          "No hay nada que hacer",
+          "Se funden como la espada en la roca",
+          "Y si dos bocas se desbocan",
+          "No hay nada que hacer",
+          "Se funden como la espada en la roca"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Mi boca y tu boca, qué cosa tan loca",
+          "Se alejan, provocan, se acercan, trastocan",
+          "Y es que tu boca mi orgullo derroca",
+          "Deseos invoca, mi razón desenfoca",
+          "Tu boca y mi boca son locas",
+          "Tu boca y mi boca son locas",
+          "Tu boca y mi boca",
+          "Son locas",
+          "Tu boca y mi boca"
+        ]
+      ]
+    ]
   }
 };
 
@@ -413,7 +540,9 @@ const AUDIO_LINKS = {
   "02": "https://drive.google.com/file/d/1qnYMbyGIqJobVq-emli7NqkNGOVgakEg/view?usp=sharing",
   "03": "https://drive.google.com/file/d/1bPbuwJRVJafuLGTk-4M_P01VPLzJPDRr/view?usp=sharing",
   "04": "https://drive.google.com/file/d/1-SZrImIh9zix8SNqXrmMWjwLhRdTfoJJ/view?usp=sharing",
-  "05": "https://drive.google.com/file/d/1w43qwrHbClvCiytUoJcX4d9n-N6ZFgWo/view?usp=sharing"
+  "05": "https://drive.google.com/file/d/1w43qwrHbClvCiytUoJcX4d9n-N6ZFgWo/view?usp=sharing",
+  "06": "https://drive.google.com/file/d/1_cms95ngVzt9Xmc1uSFccvgr75AOkCKZ/view?usp=sharing",
+  "07": "https://drive.google.com/file/d/1hBoEW5pU1F-jHd_3Ur1g_-XlWRRtH-0h/view?usp=sharing"
 };
 
 const REGISTRATION_LINKS = {
@@ -421,5 +550,7 @@ const REGISTRATION_LINKS = {
   "02": "https://drive.google.com/file/d/1_mRL5cE_YSb3AwAW0CRA1LxJGA7qB55N/view?usp=sharing",
   "03": "https://drive.google.com/file/d/10qiMwOKFu_YP-3xVM8t9C13dYIaj5Uhf/view?usp=sharing",
   "04": "https://drive.google.com/file/d/1g2aJo4D-QGHby6mlbgQ_efxGWmpsViMu/view?usp=sharing",
-  "05": "https://drive.google.com/file/d/1BMGSS7OSiBc1ARhq0ayFYhdLcDsvz0jA/view?usp=sharing"
+  "05": "https://drive.google.com/file/d/1BMGSS7OSiBc1ARhq0ayFYhdLcDsvz0jA/view?usp=sharing",
+  "06": "https://drive.google.com/file/d/1tyFl0jeJM-pXi6UgGIEmiP4Osl2MDEb8/view?usp=sharing",
+  "07": "https://drive.google.com/file/d/1ITJWKwVvN0Z0Qt1mMIhdtQRP_NKfUAkn/view?usp=sharing"
 };

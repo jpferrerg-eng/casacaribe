@@ -392,7 +392,122 @@ const SONGS = {
       ]
     ]
   },
+
   "07": {
+    "title": "LA BUENA MALA",
+    "excerpt": "Se terminó esta película · Hiciste de buena y mala",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "Se terminó esta película",
+          "Hiciste de buena y mala",
+          "Toda una historia ridícula",
+          "Que por ti misma inventabas",
+          "Para mí siempre la culpa",
+          "Tú como siempre la dama",
+          "Yo haciendo cosas estúpidas",
+          "Tú perfección encarnada"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "Y fuiste la mala buena",
+          "la buena mala, que entregó todo",
+          "y que nunca dio nada",
+          "Amor a medias, dolor a escala",
+          "A veces tierna y otras descarada",
+          "La mala buena, la buena mala",
+          "La buena mala"
+        ]
+      ],
+      [
+        "ESTROFA 2",
+        [
+          "A punto de convencerme",
+          "Con tu discurso enredabas",
+          "Yo hazme reír de la gente",
+          "Claro, siempre negabas",
+          "Para mí siempre la culpa",
+          "Tú como siempre en la nada",
+          "Bañándote en aguas turbias",
+          "La gran actriz de olimpiada"
+        ]
+      ]
+    ]
+  },
+  "08": {
+    "title": "DOS TONTOS",
+    "excerpt": "Quisimos todo al revés · Dos tontos, ya lo ves",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "[VOZ MASCULINA]",
+          "Sólo miraba el ayer",
+          "Idiota viví en el pasado",
+          "Caminé y en sentido contrario",
+          "Fui mil cosas menos cortés",
+          "[VOZ FEMENINA]",
+          "Te amé tan nociva y opuesta",
+          "Te quise tan patas arriba",
+          "Testaruda siempre a la inversa",
+          "Tan de cabeza, en contra vía"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "[VOCES MASCULINA Y FEMENINA]",
+          "Hicimos que no fuera bueno lo bueno",
+          "Empeñados en que no fuera bello",
+          "Insistimos en muy malo lo malo",
+          "Sin descanso y hasta hacernos daño",
+          "[VOZ MASCULINA]",
+          "Irónico y full de mentiras",
+          "[VOZ FEMENINA]",
+          "Yo ciega y metida en mi vida",
+          "[VOCES MASCULINA Y FEMENINA]",
+          "Quisimos todo al revés",
+          "Dos tontos, ya lo ves"
+        ]
+      ],
+      [
+        "ESTROFA 2",
+        [
+          "[VOZ MASCULINA]",
+          "Nadie escuchó de razones",
+          "Siempre lejos de la tregua",
+          "Cuando era imposible la vuelta",
+          "Voltearon nuestros corazones",
+          "[VOZ FEMENINA]",
+          "Hoy la paz no sirve de nada",
+          "Para ser amigos tal vez",
+          "De nunca volvernos a ver",
+          "Insiste la corazonada"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "[VOCES MASCULINA Y FEMENINA]",
+          "Hicimos que no fuera bueno lo bueno",
+          "Empeñados en que no fuera bello",
+          "Insistimos en muy malo lo malo",
+          "Sin descanso y hasta hacernos daño",
+          "[VOZ MASCULINA]",
+          "Yo un buen caballero de guerra",
+          "[VOZ FEMENINA]",
+          "Y yo la amante incompleta",
+          "[VOCES MASCULINA Y FEMENINA]",
+          "Quisimos todo al revés",
+          "Dos tontos, ya lo ves"
+        ]
+      ]
+    ]
+  },
+  "09": {
     "title": "TU BOCA Y MI BOCA",
     "excerpt": "Como ladrón voy detrás de tu boca · Me esquivas, no quieres y te equivocas",
     "sections": [
@@ -462,7 +577,72 @@ const SONGS = {
         ]
       ]
     ]
+  },
+  "10": {
+    "title": "CAMINO EL RIESGO",
+    "excerpt": "No es esa la verdad · Y aún así camino el riesgo",
+    "sections": [
+      [
+        "ESTROFA 1",
+        [
+          "Hoy tu me dices que no me enamore",
+          "Hoy cuando tengo la vida entregada",
+          "Que estas cansada de tantos errores",
+          "Y yo soy otro está escrito en mi cara",
+          "Que ya no quieres perder más el tiempo",
+          "Y de fallar guardas trofeos en tu alma",
+          "Que ya no puedes con tantos tropiezos",
+          "Y yo soy otro así haga lo que haga"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "No, déjame decirte",
+          "Que no es esa la verdad",
+          "Que estas juzgando",
+          "A quien no debes culpar",
+          "Que estas sangrando",
+          "Sobre el que no te hizo mal",
+          "Y se muy bien,",
+          "Se muy bien como es difícil",
+          "Cuando hay ciclos por cerrar",
+          "Pues a mi también me pasa",
+          "Es el precio que pagar",
+          "Y aún así camino el riesgo",
+          "De intentar e intentar"
+        ]
+      ],
+      [
+        "PUENTE",
+        [
+          "Aunque repitas que pronto me aleje",
+          "Solo quiero se encienda tu alma",
+          "Tal vez los miedos se vayan, te dejen",
+          "Vive, no te quedan más cartas"
+        ]
+      ],
+      [
+        "CORO",
+        [
+          "No, déjame decirte",
+          "Que no es esa la verdad",
+          "Que estas juzgando",
+          "A quien no debes culpar",
+          "Que estas sangrando",
+          "Sobre el que no te hizo mal",
+          "Y se muy bien,",
+          "Se muy bien como es difícil",
+          "Cuando hay ciclos por cerrar",
+          "Pues a mi también me pasa",
+          "Es el precio que pagar",
+          "Y aún así camino el riesgo",
+          "De intentar e intentar"
+        ]
+      ]
+    ]
   }
+
 };
 
 const nav = document.querySelector('#site-nav');
@@ -542,7 +722,10 @@ const AUDIO_LINKS = {
   "04": "https://drive.google.com/file/d/1-SZrImIh9zix8SNqXrmMWjwLhRdTfoJJ/view?usp=sharing",
   "05": "https://drive.google.com/file/d/1w43qwrHbClvCiytUoJcX4d9n-N6ZFgWo/view?usp=sharing",
   "06": "https://drive.google.com/file/d/1_cms95ngVzt9Xmc1uSFccvgr75AOkCKZ/view?usp=sharing",
-  "07": "https://drive.google.com/file/d/1hBoEW5pU1F-jHd_3Ur1g_-XlWRRtH-0h/view?usp=sharing"
+  "07": "https://drive.google.com/file/d/1fMF-X5Q-EzSltTXNAsJfRgwO7h6ypCHz/view?usp=sharing",
+  "08": "https://drive.google.com/file/d/1vpFDf0fwQIvwN1NzWHQLL9-OK5b06cAS/view?usp=sharing",
+  "09": "https://drive.google.com/file/d/1hBoEW5pU1F-jHd_3Ur1g_-XlWRRtH-0h/view?usp=sharing",
+  "10": "https://drive.google.com/file/d/1MOXWNK1UZ8ovUeS-vX3CbF5ZmKmEsCHo/view?usp=sharing"
 };
 
 const REGISTRATION_LINKS = {
@@ -552,5 +735,8 @@ const REGISTRATION_LINKS = {
   "04": "https://drive.google.com/file/d/1g2aJo4D-QGHby6mlbgQ_efxGWmpsViMu/view?usp=sharing",
   "05": "https://drive.google.com/file/d/1BMGSS7OSiBc1ARhq0ayFYhdLcDsvz0jA/view?usp=sharing",
   "06": "https://drive.google.com/file/d/1tyFl0jeJM-pXi6UgGIEmiP4Osl2MDEb8/view?usp=sharing",
-  "07": "https://drive.google.com/file/d/1ITJWKwVvN0Z0Qt1mMIhdtQRP_NKfUAkn/view?usp=sharing"
+  "07": "https://drive.google.com/file/d/1S4-Dm3MzyZiOaH3VgZVCO_oPHjbUeIsH/view?usp=sharing",
+  "08": "https://drive.google.com/file/d/1q0a8-XKWlbOrMinPhoVYQVQoOWSrcsik/view?usp=sharing",
+  "09": "https://drive.google.com/file/d/1ITJWKwVvN0Z0Qt1mMIhdtQRP_NKfUAkn/view?usp=sharing",
+  "10": "https://drive.google.com/file/d/1nljMD4SKRqMdtnoSeGTfEOTXgC3li_5D/view?usp=sharing"
 };
